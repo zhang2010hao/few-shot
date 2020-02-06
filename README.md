@@ -1,7 +1,7 @@
 This repo provides a Pytorch implementation of match network and prototypical network for NLP.
 
 ## Dataset
-I make a few-shot dataset from NYT. This dataset contains 989 sentences. The task aims at predicting sample entity in sentence.
+I make a few-shot dataset from NYT. This dataset contains 989 sentences. The task aims at predicting same entity in sentence.
 
 
 ## Acknowledgements
@@ -23,4 +23,4 @@ You can ajust other parameters in src/config.py
 ## Performance
                             val acc     test acc
     match network           0.4769      0.4423        
-prototypical network        0.70625     0.6938
+    prototypical network    0.70625     0.6938
